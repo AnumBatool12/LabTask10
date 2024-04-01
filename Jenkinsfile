@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Step 1: Checkout'){
             steps {
-                git https://github.com/AnumBatool12/LabTask10.git
+                git 'https://github.com/AnumBatool12/LabTask10.git'
             }
         }
         stage ('Step 2: Dependency Installation'){
